@@ -73,7 +73,7 @@ export default function Register() {
           "chat-app-current-user",
           JSON.stringify(data.user)
         );
-        navigate("/");
+        navigate("/login");
       }
     }
   };
